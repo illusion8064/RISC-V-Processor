@@ -1,3 +1,4 @@
+`include "main.v"
 module main_wrap_tb;
     reg clk;
     main_wrap uut(
