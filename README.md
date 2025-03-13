@@ -33,25 +33,6 @@ Each implementation folder contains the necessary Verilog source files, testbenc
 - Simpler design, easier to debug
 - Basic modules include ALU, register file, instruction memory, and control unit
 
- **Files:**
-- `main.v` - Top-level module
-- `alu.v`, `control_unit.v`, `register.v` - Core components
-- `data_mem.v`, `pc.v`, `mux_2x1.v` - Supporting modules
-- `assem0.txt`, `assem1.txt` - Assembly test cases
-- `ins0.txt`, `ins1.txt` - 32-bit instruction binaries
-- `data0.txt`, `data1.txt` - Memory data contents
-- `main_test.v` - Testbench for execution
-
- **How to Run:**
-```sh
-cd sequential
-iverilog -o output main_test.v
-vvp output
-gtkwave output.vcd
-```
-
- **Waveform Analysis:** Open `output_waveform.gtkw` in GTKWave.
-
 ---
 
 ### 2️⃣ Pipelined RISC-V Processor
@@ -61,26 +42,6 @@ gtkwave output.vcd
   - Data forwarding for efficiency
   - Hazard detection for stall control
 - **Improves instruction throughput** compared to sequential execution
-
- **Files:**
-- `main.v`, `main_test.v` - Top module and testbench
-- `alu.v`, `alu_control.v`, `control_unit.v` - Core components
-- `fwding_unit.v`, `hazard_detection_unit.v` - Hazard handling
-- `ifid_reg.v`, `idex_reg.v`, `exmem_reg.v`, `memwb_reg.v` - Pipeline registers
-- `instruction.v`, `mux.v`, `register.v` - Supporting modules
-- `assem0.txt`, `assem1.txt` - Assembly test cases
-- `ins0.txt`, `ins1.txt` - 32-bit instruction binaries
-- `data0.txt`, `data1.txt` - Memory data contents
-
- **How to Run:**
-```sh
-cd pipelining
-iverilog -o output main_test.v
-vvp output
-gtkwave output.vcd
-```
-
- **Waveform Analysis:** Open `output_waveform.gtkw` in GTKWave.
 
 ---
 
@@ -123,7 +84,7 @@ gtkwave output.vcd
 
 ## Acknowledgments
 
-Special thanks to our **professors and mentors** for guidance throughout the project!
+Special thanks to our **professor and TAs** for guidance throughout the project!
 
 📌 *For any queries or suggestions, feel free to open an issue in this repository.*
 
