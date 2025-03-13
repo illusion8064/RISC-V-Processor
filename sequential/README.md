@@ -50,8 +50,6 @@ sequential/
    gtkwave output_waveform.vcd
    ```
 
-## Processor Architecture
-
 ## Sequential Diagram
 
 ![Sequential Diagram](sequential_diagram.png)
