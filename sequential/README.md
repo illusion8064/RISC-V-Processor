@@ -1,4 +1,62 @@
-# Sequential Implementation
-Use this folder to house the implementation of the sequential RISC V processor
-- put all module files into a folder called `src` and have the main wrapper file as `main.v` 
+# Sequential RISC-V Processor
+
+## Overview
+
+This folder contains the sequential implementation of a RISC-V processor. Unlike the pipelined version, this implementation executes one instruction at a time, completing all stages before fetching the next instruction.
+
+## Features
+
+- **Single-Cycle Execution**: Each instruction completes before the next begins.
+- **Simpler Control Logic**: No need for hazard detection or forwarding.
+- **Supports RISC-V Instructions** (Arithmetic, Load/Store, Branch, Logical)
+- **Implemented in Verilog with testbenches**
+
+## File Structure
+
+```
+sequential/
+│── alu.v, alu_control.v        # ALU and ALU control unit
+│── control_unit.v              # Control signals for instruction execution
+│── data.v                      # Memory unit for storing data
+│── instruction.v               # Instruction decoding module
+│── mux.v                       # Multiplexers used in the design
+│── register.v                  # Register file
+│── main.v                      # Top-level processor design
+│── main_test.v                 # Testbench for simulation
+│── Assembly & Test Files:
+│   ├── assem0.txt, assem1.txt  # Assembly code with dry runs in comments
+│   ├── data0.txt, data1.txt    # Memory data contents
+│   ├── ins0.txt, ins1.txt      # 32-bit binary instructions
+│── Output Files:
+│   ├── output/                 # Simulation results
+│   ├── output.vcd              # Waveform data for GTKWave
+│   ├── output_waveform.gtkw    # Preconfigured GTKWave settings
+│── README.md                   # This documentation
+```
+
+## Running the Simulation
+
+1. **Compile the Verilog Code**
+   ```sh
+   iverilog -o output main_test.v
+   ```
+2. **Dump the vcd File**
+   ```sh
+   vvp output
+   ```
+3. **View Waveforms in GTKWave**
+   ```sh
+   gtkwave output.vcd
+   ```
+
+## Testing
+
+- Assembly programs (`assem0.txt`, `assem1.txt`) include dry-run comments.
+- Memory contents are stored in `data0.txt` and `data1.txt`.
+- Instruction binaries are stored in `ins0.txt` and `ins1.txt`.
+- Modify these files to test different scenarios and execution behavior.
+
+## Notes
+
+This sequential implementation is simpler but slower compared to the pipelined version since each instruction takes a full cycle to execute.
 
