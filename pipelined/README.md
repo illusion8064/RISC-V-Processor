@@ -54,6 +54,9 @@ pipelining/
    ```sh
    gtkwave output.vcd
    ```
+## Pipeline Diagram
+
+![Pipeline Diagram](pipeline_diagram.png)
 
 ## Testing
 
