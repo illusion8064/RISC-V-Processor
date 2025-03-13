@@ -2,13 +2,13 @@
 
 ## Overview
 
-This folder contains the sequential implementation of a RISC-V processor. Unlike the pipelined version, this implementation executes one instruction at a time, completing all stages before fetching the next instruction.
+This folder contains the sequential implementation of a RISC-V processor. Unlike the pipelined version, this design processes instructions one at a time, making it simpler but less efficient in terms of execution speed.
 
 ## Features
 
-- **Single-Cycle Execution**: Each instruction completes before the next begins.
-- **Simpler Control Logic**: No need for hazard detection or forwarding.
-- **Supports RISC-V Instructions** (Arithmetic, Load/Store, Branch, Logical)
+- **Single-Cycle Execution**: Each instruction completes in one cycle.
+- **Basic RISC-V Instruction Set**: Supports arithmetic, logical, load/store, and branch instructions.
+- **No Hazard Handling**: Instructions execute sequentially without forwarding or stalling mechanisms.
 - **Implemented in Verilog with testbenches**
 
 ## File Structure
@@ -17,9 +17,10 @@ This folder contains the sequential implementation of a RISC-V processor. Unlike
 sequential/
 │── alu.v, alu_control.v        # ALU and ALU control unit
 │── control_unit.v              # Control signals for instruction execution
-│── data.v                      # Memory unit for storing data
+│── data_mem.v                  # Memory unit for storing data
 │── instruction.v               # Instruction decoding module
-│── mux.v                       # Multiplexers used in the design
+│── mux_2x1.v                   # Multiplexers used in the design
+│── pc.v                        # Program counter
 │── register.v                  # Register file
 │── main.v                      # Top-level processor design
 │── main_test.v                 # Testbench for simulation
@@ -46,17 +47,20 @@ sequential/
    ```
 3. **View Waveforms in GTKWave**
    ```sh
-   gtkwave output.vcd
+   gtkwave output_waveform.vcd
    ```
+
+## Processor Architecture
+
+
 
 ## Testing
 
 - Assembly programs (`assem0.txt`, `assem1.txt`) include dry-run comments.
 - Memory contents are stored in `data0.txt` and `data1.txt`.
 - Instruction binaries are stored in `ins0.txt` and `ins1.txt`.
-- Modify these files to test different scenarios and execution behavior.
+- Modify these files to test different instructions and execution scenarios.
 
 ## Notes
 
-This sequential implementation is simpler but slower compared to the pipelined version since each instruction takes a full cycle to execute.
-
+This sequential processor serves as a baseline for understanding RISC-V architecture before moving to more advanced pipelined implementations.
