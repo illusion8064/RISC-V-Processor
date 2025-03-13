@@ -44,8 +44,6 @@ Each implementation folder contains the necessary Verilog source files, testbenc
 
 ---
 
----
-
 ## Design Specifications
 The processor follows the **RISC-V instruction set architecture (ISA)**, implementing a subset of its instructions. The design consists of the following key modules:
 - **ALU (Arithmetic Logic Unit)** – Performs arithmetic and logical operations.
@@ -67,6 +65,8 @@ The processor supports **RISC-V base integer instructions (RV32I)**. The instruc
 - **B-type (Branch)** – Used for conditional branching (`BEQ`, `BNE`).
 
 Instructions are encoded in **32-bit format**, with specific bit fields for opcode, registers, and immediate values.
+**Reference Material:** For a detailed RISC-V instruction set reference, check out the [RISC-V Green Card](https://www.cl.cam.ac.uk/teaching/1617/ECAD+Arch/files/docs/RISCVGreenCardv8-20151013.pdf).
+
 
 ---
 
@@ -91,10 +91,6 @@ By implementing these techniques, the processor minimizes pipeline stalls and en
 | CPI (Cycles Per Instruction) | ~4-5 (average) | ~1 (ideal case) |
 | Hazard Handling | Not required              | Uses forwarding & stalls                                      |
 | Modules         | ALU, Control, Registers   | ALU, Control, Registers, Pipeline Registers, Hazard Detection |
-
----
-
-📌 **Reference Material:** For a detailed RISC-V instruction set reference, check out the [RISC-V Green Card](https://www.cl.cam.ac.uk/teaching/1617/ECAD+Arch/files/docs/RISCVGreenCardv8-20151013.pdf).
 
 ---
 
