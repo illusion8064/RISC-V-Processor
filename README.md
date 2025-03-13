@@ -17,7 +17,6 @@ Both implementations are written in **Verilog**, tested using **Icarus Verilog (
 RISCVortex/
 │── sequential/      # Contains the sequential processor implementation
 │── pipelining/      # Contains the pipelined processor implementation
-│── project_docs/    # Project requirements and documentation
 │── README.md        # This file (repository overview)
 ```
 
@@ -45,25 +44,54 @@ Each implementation folder contains the necessary Verilog source files, testbenc
 
 ---
 
-## Project Documentation
+---
 
- **Project requirements and documentation** are included in the `project_docs/` folder, detailing:
-- Design specifications
-- Instruction formats
-- Hazard handling techniques
-- Performance comparison between sequential and pipelined architectures
+## Design Specifications
+The processor follows the **RISC-V instruction set architecture (ISA)**, implementing a subset of its instructions. The design consists of the following key modules:
+- **ALU (Arithmetic Logic Unit)** – Performs arithmetic and logical operations.
+- **Register File** – Stores temporary values and operands for computation.
+- **Control Unit** – Decodes instructions and generates control signals.
+- **Program Counter (PC)** – Tracks the next instruction to be executed.
+- **Data Memory** – Stores and retrieves data during execution.
+- **Instruction Memory** – Stores program instructions.
+
+The sequential implementation executes **one instruction per cycle**, while the pipelined version uses a **5-stage pipeline** for improved performance.
 
 ---
 
-## Summary
+## Instruction Formats
+The processor supports **RISC-V base integer instructions (RV32I)**. The instruction set includes:
+- **R-type (Register-Register)** – Used for ALU operations (e.g., `ADD`, `SUB`).
+- **I-type (Immediate)** – Used for immediate operations and loads (e.g., `ADDI`, `LW`).
+- **S-type (Store)** – Used for store instructions (`SW`).
+- **B-type (Branch)** – Used for conditional branching (`BEQ`, `BNE`).
 
-| Feature               | Sequential Processor | Pipelined Processor |
-|----------------------|--------------------|--------------------|
-| Execution Speed      | One instruction per cycle | Multiple instructions in parallel |
-| Complexity          | Simple | More complex |
-| Performance        | Slower | Faster |
-| Hazard Handling | Not required | Uses forwarding & stalls |
-| Modules          | ALU, Control, Registers | ALU, Control, Registers, Pipeline Registers, Hazard Detection |
+Instructions are encoded in **32-bit format**, with specific bit fields for opcode, registers, and immediate values.
+
+---
+
+## Hazard Handling Techniques
+In the pipelined implementation, hazards occur due to overlapping instruction execution. The following techniques are used for handling hazards:
+- **Data Hazards**:
+  - **Forwarding** – Data is directly passed from later pipeline stages to earlier ones.
+  - **Stalling** – Introduces a bubble (NOP instruction) when forwarding isn't possible.
+- **Control Hazards**:
+  - **Stalling on Branches** – Pauses execution until the branch outcome is determined.
+  - **Branch Resolution in EX Stage** – Minimizes stalls by early branch decision.
+
+By implementing these techniques, the processor minimizes pipeline stalls and ensures correct instruction execution.
+
+---
+
+## Performance Comparison: Sequential vs. Pipelined
+| Feature         | Sequential Processor      | Pipelined Processor                                           |
+| --------------- | ------------------------- | ------------------------------------------------------------- |
+| Execution Speed | One instruction per cycle | Multiple instructions in parallel                             |
+| Complexity      | Simple                    | More complex                                                  |
+| Performance     | Slower                    | Faster                                                        |
+| CPI (Cycles Per Instruction) | ~4-5 (average) | ~1 (ideal case) |
+| Hazard Handling | Not required              | Uses forwarding & stalls                                      |
+| Modules         | ALU, Control, Registers   | ALU, Control, Registers, Pipeline Registers, Hazard Detection |
 
 ---
 
@@ -87,4 +115,3 @@ Each implementation folder contains the necessary Verilog source files, testbenc
 Special thanks to our **professor and TAs** for guidance throughout the project!
 
 📌 *For any queries or suggestions, feel free to open an issue in this repository.*
-
