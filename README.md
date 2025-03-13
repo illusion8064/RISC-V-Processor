@@ -32,7 +32,6 @@ Each implementation folder contains the necessary Verilog source files, testbenc
 - Simpler design, easier to debug
 - Basic modules include ALU, register file, instruction memory, and control unit
 
----
 
 ### 2️⃣ Pipelined RISC-V Processor
 
@@ -65,6 +64,7 @@ The processor supports **RISC-V base integer instructions (RV32I)**. The instruc
 - **B-type (Branch)** – Used for conditional branching (`BEQ`, `BNE`).
 
 Instructions are encoded in **32-bit format**, with specific bit fields for opcode, registers, and immediate values.
+
 **Reference Material:** For a detailed RISC-V instruction set reference, check out the [RISC-V Green Card](https://www.cl.cam.ac.uk/teaching/1617/ECAD+Arch/files/docs/RISCVGreenCardv8-20151013.pdf).
 
 
