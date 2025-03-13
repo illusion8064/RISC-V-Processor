@@ -52,7 +52,9 @@ sequential/
 
 ## Processor Architecture
 
+## Sequential Diagram
 
+![Sequential Diagram](sequential_diagram.png)
 
 ## Testing
 
