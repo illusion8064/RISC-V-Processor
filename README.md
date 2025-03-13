@@ -77,7 +77,6 @@ In the pipelined implementation, hazards occur due to overlapping instruction ex
   - **Stalling** – Introduces a bubble (NOP instruction) when forwarding isn't possible.
 - **Control Hazards**:
   - **Stalling on Branches** – Pauses execution until the branch outcome is determined.
-  - **Branch Resolution in EX Stage** – Minimizes stalls by early branch decision.
 
 By implementing these techniques, the processor minimizes pipeline stalls and ensures correct instruction execution.
 
@@ -95,10 +94,14 @@ By implementing these techniques, the processor minimizes pipeline stalls and en
 
 ---
 
+📌 **Reference Material:** For a detailed RISC-V instruction set reference, check out the [RISC-V Green Card](https://www.cl.cam.ac.uk/teaching/1617/ECAD+Arch/files/docs/RISCVGreenCardv8-20151013.pdf).
+
+---
+
 ## Contributors
  Final project for the **Introduction to Processor Architecture** course.
 
- **GitHub Repository**: [Insert Repo Link]
+ **GitHub Repository**: https://github.com/illusion8064/RISCVortex
 
 ---
 
