@@ -1,0 +1,2106 @@
+$date
+	Thu Mar 13 20:56:53 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module main_wrap_tb $end
+$var reg 1 ! clk $end
+$scope module uut $end
+$var wire 1 " branch_imm $end
+$var wire 1 ! clk $end
+$var wire 1 # zero $end
+$var wire 64 $ write_data [63:0] $end
+$var wire 64 % source2 [63:0] $end
+$var wire 5 & rs2 [4:0] $end
+$var wire 5 ' rs1 [4:0] $end
+$var wire 64 ( read2 [63:0] $end
+$var wire 64 ) read1 [63:0] $end
+$var wire 5 * rd [4:0] $end
+$var wire 1 + overflow $end
+$var wire 7 , opcode [6:0] $end
+$var wire 64 - next_pc_add [63:0] $end
+$var wire 32 . instruct [31:0] $end
+$var wire 64 / immediate [63:0] $end
+$var wire 3 0 func3 [2:0] $end
+$var wire 2 1 aluop [1:0] $end
+$var wire 64 2 alu_result [63:0] $end
+$var wire 4 3 alu_control [3:0] $end
+$var wire 1 4 RegWrite $end
+$var wire 64 5 Readdata [63:0] $end
+$var wire 1 6 MemtoReg $end
+$var wire 1 7 MemWrite $end
+$var wire 1 8 MemRead $end
+$var wire 1 9 Branch $end
+$var wire 1 : ALUsrc $end
+$var reg 64 ; pc_add [63:0] $end
+$scope begin genblk1[0] $end
+$var parameter 2 < k $end
+$scope module muxxing $end
+$var wire 1 = in0 $end
+$var wire 1 > in1 $end
+$var wire 1 : sel $end
+$var wire 1 ? out $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[1] $end
+$var parameter 2 @ k $end
+$scope module muxxing $end
+$var wire 1 A in0 $end
+$var wire 1 B in1 $end
+$var wire 1 : sel $end
+$var wire 1 C out $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[2] $end
+$var parameter 3 D k $end
+$scope module muxxing $end
+$var wire 1 E in0 $end
+$var wire 1 F in1 $end
+$var wire 1 : sel $end
+$var wire 1 G out $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[3] $end
+$var parameter 3 H k $end
+$scope module muxxing $end
+$var wire 1 I in0 $end
+$var wire 1 J in1 $end
+$var wire 1 : sel $end
+$var wire 1 K out $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[4] $end
+$var parameter 4 L k $end
+$scope module muxxing $end
+$var wire 1 M in0 $end
+$var wire 1 N in1 $end
+$var wire 1 : sel $end
+$var wire 1 O out $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[5] $end
+$var parameter 4 P k $end
+$scope module muxxing $end
+$var wire 1 Q in0 $end
+$var wire 1 R in1 $end
+$var wire 1 : sel $end
+$var wire 1 S out $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[6] $end
+$var parameter 4 T k $end
+$scope module muxxing $end
+$var wire 1 U in0 $end
+$var wire 1 V in1 $end
+$var wire 1 : sel $end
+$var wire 1 W out $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[7] $end
+$var parameter 4 X k $end
+$scope module muxxing $end
+$var wire 1 Y in0 $end
+$var wire 1 Z in1 $end
+$var wire 1 : sel $end
+$var wire 1 [ out $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[8] $end
+$var parameter 5 \ k $end
+$scope module muxxing $end
+$var wire 1 ] in0 $end
+$var wire 1 ^ in1 $end
+$var wire 1 : sel $end
+$var wire 1 _ out $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[9] $end
+$var parameter 5 ` k $end
+$scope module muxxing $end
+$var wire 1 a in0 $end
+$var wire 1 b in1 $end
+$var wire 1 : sel $end
+$var wire 1 c out $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[10] $end
+$var parameter 5 d k $end
+$scope module muxxing $end
+$var wire 1 e in0 $end
+$var wire 1 f in1 $end
+$var wire 1 : sel $end
+$var wire 1 g out $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[11] $end
+$var parameter 5 h k $end
+$scope module muxxing $end
+$var wire 1 i in0 $end
+$var wire 1 j in1 $end
+$var wire 1 : sel $end
+$var wire 1 k out $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[12] $end
+$var parameter 5 l k $end
+$scope module muxxing $end
+$var wire 1 m in0 $end
+$var wire 1 n in1 $end
+$var wire 1 : sel $end
+$var wire 1 o out $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[13] $end
+$var parameter 5 p k $end
+$scope module muxxing $end
+$var wire 1 q in0 $end
+$var wire 1 r in1 $end
+$var wire 1 : sel $end
+$var wire 1 s out $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[14] $end
+$var parameter 5 t k $end
+$scope module muxxing $end
+$var wire 1 u in0 $end
+$var wire 1 v in1 $end
+$var wire 1 : sel $end
+$var wire 1 w out $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[15] $end
+$var parameter 5 x k $end
+$scope module muxxing $end
+$var wire 1 y in0 $end
+$var wire 1 z in1 $end
+$var wire 1 : sel $end
+$var wire 1 { out $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[16] $end
+$var parameter 6 | k $end
+$scope module muxxing $end
+$var wire 1 } in0 $end
+$var wire 1 ~ in1 $end
+$var wire 1 : sel $end
+$var wire 1 !" out $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[17] $end
+$var parameter 6 "" k $end
+$scope module muxxing $end
+$var wire 1 #" in0 $end
+$var wire 1 $" in1 $end
+$var wire 1 : sel $end
+$var wire 1 %" out $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[18] $end
+$var parameter 6 &" k $end
+$scope module muxxing $end
+$var wire 1 '" in0 $end
+$var wire 1 (" in1 $end
+$var wire 1 : sel $end
+$var wire 1 )" out $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[19] $end
+$var parameter 6 *" k $end
+$scope module muxxing $end
+$var wire 1 +" in0 $end
+$var wire 1 ," in1 $end
+$var wire 1 : sel $end
+$var wire 1 -" out $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[20] $end
+$var parameter 6 ." k $end
+$scope module muxxing $end
+$var wire 1 /" in0 $end
+$var wire 1 0" in1 $end
+$var wire 1 : sel $end
+$var wire 1 1" out $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[21] $end
+$var parameter 6 2" k $end
+$scope module muxxing $end
+$var wire 1 3" in0 $end
+$var wire 1 4" in1 $end
+$var wire 1 : sel $end
+$var wire 1 5" out $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[22] $end
+$var parameter 6 6" k $end
+$scope module muxxing $end
+$var wire 1 7" in0 $end
+$var wire 1 8" in1 $end
+$var wire 1 : sel $end
+$var wire 1 9" out $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[23] $end
+$var parameter 6 :" k $end
+$scope module muxxing $end
+$var wire 1 ;" in0 $end
+$var wire 1 <" in1 $end
+$var wire 1 : sel $end
+$var wire 1 =" out $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[24] $end
+$var parameter 6 >" k $end
+$scope module muxxing $end
+$var wire 1 ?" in0 $end
+$var wire 1 @" in1 $end
+$var wire 1 : sel $end
+$var wire 1 A" out $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[25] $end
+$var parameter 6 B" k $end
+$scope module muxxing $end
+$var wire 1 C" in0 $end
+$var wire 1 D" in1 $end
+$var wire 1 : sel $end
+$var wire 1 E" out $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[26] $end
+$var parameter 6 F" k $end
+$scope module muxxing $end
+$var wire 1 G" in0 $end
+$var wire 1 H" in1 $end
+$var wire 1 : sel $end
+$var wire 1 I" out $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[27] $end
+$var parameter 6 J" k $end
+$scope module muxxing $end
+$var wire 1 K" in0 $end
+$var wire 1 L" in1 $end
+$var wire 1 : sel $end
+$var wire 1 M" out $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[28] $end
+$var parameter 6 N" k $end
+$scope module muxxing $end
+$var wire 1 O" in0 $end
+$var wire 1 P" in1 $end
+$var wire 1 : sel $end
+$var wire 1 Q" out $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[29] $end
+$var parameter 6 R" k $end
+$scope module muxxing $end
+$var wire 1 S" in0 $end
+$var wire 1 T" in1 $end
+$var wire 1 : sel $end
+$var wire 1 U" out $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[30] $end
+$var parameter 6 V" k $end
+$scope module muxxing $end
+$var wire 1 W" in0 $end
+$var wire 1 X" in1 $end
+$var wire 1 : sel $end
+$var wire 1 Y" out $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[31] $end
+$var parameter 6 Z" k $end
+$scope module muxxing $end
+$var wire 1 [" in0 $end
+$var wire 1 \" in1 $end
+$var wire 1 : sel $end
+$var wire 1 ]" out $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[32] $end
+$var parameter 7 ^" k $end
+$scope module muxxing $end
+$var wire 1 _" in0 $end
+$var wire 1 `" in1 $end
+$var wire 1 : sel $end
+$var wire 1 a" out $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[33] $end
+$var parameter 7 b" k $end
+$scope module muxxing $end
+$var wire 1 c" in0 $end
+$var wire 1 d" in1 $end
+$var wire 1 : sel $end
+$var wire 1 e" out $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[34] $end
+$var parameter 7 f" k $end
+$scope module muxxing $end
+$var wire 1 g" in0 $end
+$var wire 1 h" in1 $end
+$var wire 1 : sel $end
+$var wire 1 i" out $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[35] $end
+$var parameter 7 j" k $end
+$scope module muxxing $end
+$var wire 1 k" in0 $end
+$var wire 1 l" in1 $end
+$var wire 1 : sel $end
+$var wire 1 m" out $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[36] $end
+$var parameter 7 n" k $end
+$scope module muxxing $end
+$var wire 1 o" in0 $end
+$var wire 1 p" in1 $end
+$var wire 1 : sel $end
+$var wire 1 q" out $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[37] $end
+$var parameter 7 r" k $end
+$scope module muxxing $end
+$var wire 1 s" in0 $end
+$var wire 1 t" in1 $end
+$var wire 1 : sel $end
+$var wire 1 u" out $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[38] $end
+$var parameter 7 v" k $end
+$scope module muxxing $end
+$var wire 1 w" in0 $end
+$var wire 1 x" in1 $end
+$var wire 1 : sel $end
+$var wire 1 y" out $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[39] $end
+$var parameter 7 z" k $end
+$scope module muxxing $end
+$var wire 1 {" in0 $end
+$var wire 1 |" in1 $end
+$var wire 1 : sel $end
+$var wire 1 }" out $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[40] $end
+$var parameter 7 ~" k $end
+$scope module muxxing $end
+$var wire 1 !# in0 $end
+$var wire 1 "# in1 $end
+$var wire 1 : sel $end
+$var wire 1 ## out $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[41] $end
+$var parameter 7 $# k $end
+$scope module muxxing $end
+$var wire 1 %# in0 $end
+$var wire 1 &# in1 $end
+$var wire 1 : sel $end
+$var wire 1 '# out $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[42] $end
+$var parameter 7 (# k $end
+$scope module muxxing $end
+$var wire 1 )# in0 $end
+$var wire 1 *# in1 $end
+$var wire 1 : sel $end
+$var wire 1 +# out $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[43] $end
+$var parameter 7 ,# k $end
+$scope module muxxing $end
+$var wire 1 -# in0 $end
+$var wire 1 .# in1 $end
+$var wire 1 : sel $end
+$var wire 1 /# out $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[44] $end
+$var parameter 7 0# k $end
+$scope module muxxing $end
+$var wire 1 1# in0 $end
+$var wire 1 2# in1 $end
+$var wire 1 : sel $end
+$var wire 1 3# out $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[45] $end
+$var parameter 7 4# k $end
+$scope module muxxing $end
+$var wire 1 5# in0 $end
+$var wire 1 6# in1 $end
+$var wire 1 : sel $end
+$var wire 1 7# out $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[46] $end
+$var parameter 7 8# k $end
+$scope module muxxing $end
+$var wire 1 9# in0 $end
+$var wire 1 :# in1 $end
+$var wire 1 : sel $end
+$var wire 1 ;# out $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[47] $end
+$var parameter 7 <# k $end
+$scope module muxxing $end
+$var wire 1 =# in0 $end
+$var wire 1 ># in1 $end
+$var wire 1 : sel $end
+$var wire 1 ?# out $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[48] $end
+$var parameter 7 @# k $end
+$scope module muxxing $end
+$var wire 1 A# in0 $end
+$var wire 1 B# in1 $end
+$var wire 1 : sel $end
+$var wire 1 C# out $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[49] $end
+$var parameter 7 D# k $end
+$scope module muxxing $end
+$var wire 1 E# in0 $end
+$var wire 1 F# in1 $end
+$var wire 1 : sel $end
+$var wire 1 G# out $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[50] $end
+$var parameter 7 H# k $end
+$scope module muxxing $end
+$var wire 1 I# in0 $end
+$var wire 1 J# in1 $end
+$var wire 1 : sel $end
+$var wire 1 K# out $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[51] $end
+$var parameter 7 L# k $end
+$scope module muxxing $end
+$var wire 1 M# in0 $end
+$var wire 1 N# in1 $end
+$var wire 1 : sel $end
+$var wire 1 O# out $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[52] $end
+$var parameter 7 P# k $end
+$scope module muxxing $end
+$var wire 1 Q# in0 $end
+$var wire 1 R# in1 $end
+$var wire 1 : sel $end
+$var wire 1 S# out $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[53] $end
+$var parameter 7 T# k $end
+$scope module muxxing $end
+$var wire 1 U# in0 $end
+$var wire 1 V# in1 $end
+$var wire 1 : sel $end
+$var wire 1 W# out $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[54] $end
+$var parameter 7 X# k $end
+$scope module muxxing $end
+$var wire 1 Y# in0 $end
+$var wire 1 Z# in1 $end
+$var wire 1 : sel $end
+$var wire 1 [# out $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[55] $end
+$var parameter 7 \# k $end
+$scope module muxxing $end
+$var wire 1 ]# in0 $end
+$var wire 1 ^# in1 $end
+$var wire 1 : sel $end
+$var wire 1 _# out $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[56] $end
+$var parameter 7 `# k $end
+$scope module muxxing $end
+$var wire 1 a# in0 $end
+$var wire 1 b# in1 $end
+$var wire 1 : sel $end
+$var wire 1 c# out $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[57] $end
+$var parameter 7 d# k $end
+$scope module muxxing $end
+$var wire 1 e# in0 $end
+$var wire 1 f# in1 $end
+$var wire 1 : sel $end
+$var wire 1 g# out $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[58] $end
+$var parameter 7 h# k $end
+$scope module muxxing $end
+$var wire 1 i# in0 $end
+$var wire 1 j# in1 $end
+$var wire 1 : sel $end
+$var wire 1 k# out $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[59] $end
+$var parameter 7 l# k $end
+$scope module muxxing $end
+$var wire 1 m# in0 $end
+$var wire 1 n# in1 $end
+$var wire 1 : sel $end
+$var wire 1 o# out $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[60] $end
+$var parameter 7 p# k $end
+$scope module muxxing $end
+$var wire 1 q# in0 $end
+$var wire 1 r# in1 $end
+$var wire 1 : sel $end
+$var wire 1 s# out $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[61] $end
+$var parameter 7 t# k $end
+$scope module muxxing $end
+$var wire 1 u# in0 $end
+$var wire 1 v# in1 $end
+$var wire 1 : sel $end
+$var wire 1 w# out $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[62] $end
+$var parameter 7 x# k $end
+$scope module muxxing $end
+$var wire 1 y# in0 $end
+$var wire 1 z# in1 $end
+$var wire 1 : sel $end
+$var wire 1 {# out $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[63] $end
+$var parameter 7 |# k $end
+$scope module muxxing $end
+$var wire 1 }# in0 $end
+$var wire 1 ~# in1 $end
+$var wire 1 : sel $end
+$var wire 1 !$ out $end
+$upscope $end
+$upscope $end
+$scope begin genblk2[0] $end
+$var parameter 2 "$ a $end
+$scope module muxxing $end
+$var wire 1 #$ in0 $end
+$var wire 1 $$ in1 $end
+$var wire 1 6 sel $end
+$var wire 1 %$ out $end
+$upscope $end
+$upscope $end
+$scope begin genblk2[1] $end
+$var parameter 2 &$ a $end
+$scope module muxxing $end
+$var wire 1 '$ in0 $end
+$var wire 1 ($ in1 $end
+$var wire 1 6 sel $end
+$var wire 1 )$ out $end
+$upscope $end
+$upscope $end
+$scope begin genblk2[2] $end
+$var parameter 3 *$ a $end
+$scope module muxxing $end
+$var wire 1 +$ in0 $end
+$var wire 1 ,$ in1 $end
+$var wire 1 6 sel $end
+$var wire 1 -$ out $end
+$upscope $end
+$upscope $end
+$scope begin genblk2[3] $end
+$var parameter 3 .$ a $end
+$scope module muxxing $end
+$var wire 1 /$ in0 $end
+$var wire 1 0$ in1 $end
+$var wire 1 6 sel $end
+$var wire 1 1$ out $end
+$upscope $end
+$upscope $end
+$scope begin genblk2[4] $end
+$var parameter 4 2$ a $end
+$scope module muxxing $end
+$var wire 1 3$ in0 $end
+$var wire 1 4$ in1 $end
+$var wire 1 6 sel $end
+$var wire 1 5$ out $end
+$upscope $end
+$upscope $end
+$scope begin genblk2[5] $end
+$var parameter 4 6$ a $end
+$scope module muxxing $end
+$var wire 1 7$ in0 $end
+$var wire 1 8$ in1 $end
+$var wire 1 6 sel $end
+$var wire 1 9$ out $end
+$upscope $end
+$upscope $end
+$scope begin genblk2[6] $end
+$var parameter 4 :$ a $end
+$scope module muxxing $end
+$var wire 1 ;$ in0 $end
+$var wire 1 <$ in1 $end
+$var wire 1 6 sel $end
+$var wire 1 =$ out $end
+$upscope $end
+$upscope $end
+$scope begin genblk2[7] $end
+$var parameter 4 >$ a $end
+$scope module muxxing $end
+$var wire 1 ?$ in0 $end
+$var wire 1 @$ in1 $end
+$var wire 1 6 sel $end
+$var wire 1 A$ out $end
+$upscope $end
+$upscope $end
+$scope begin genblk2[8] $end
+$var parameter 5 B$ a $end
+$scope module muxxing $end
+$var wire 1 C$ in0 $end
+$var wire 1 D$ in1 $end
+$var wire 1 6 sel $end
+$var wire 1 E$ out $end
+$upscope $end
+$upscope $end
+$scope begin genblk2[9] $end
+$var parameter 5 F$ a $end
+$scope module muxxing $end
+$var wire 1 G$ in0 $end
+$var wire 1 H$ in1 $end
+$var wire 1 6 sel $end
+$var wire 1 I$ out $end
+$upscope $end
+$upscope $end
+$scope begin genblk2[10] $end
+$var parameter 5 J$ a $end
+$scope module muxxing $end
+$var wire 1 K$ in0 $end
+$var wire 1 L$ in1 $end
+$var wire 1 6 sel $end
+$var wire 1 M$ out $end
+$upscope $end
+$upscope $end
+$scope begin genblk2[11] $end
+$var parameter 5 N$ a $end
+$scope module muxxing $end
+$var wire 1 O$ in0 $end
+$var wire 1 P$ in1 $end
+$var wire 1 6 sel $end
+$var wire 1 Q$ out $end
+$upscope $end
+$upscope $end
+$scope begin genblk2[12] $end
+$var parameter 5 R$ a $end
+$scope module muxxing $end
+$var wire 1 S$ in0 $end
+$var wire 1 T$ in1 $end
+$var wire 1 6 sel $end
+$var wire 1 U$ out $end
+$upscope $end
+$upscope $end
+$scope begin genblk2[13] $end
+$var parameter 5 V$ a $end
+$scope module muxxing $end
+$var wire 1 W$ in0 $end
+$var wire 1 X$ in1 $end
+$var wire 1 6 sel $end
+$var wire 1 Y$ out $end
+$upscope $end
+$upscope $end
+$scope begin genblk2[14] $end
+$var parameter 5 Z$ a $end
+$scope module muxxing $end
+$var wire 1 [$ in0 $end
+$var wire 1 \$ in1 $end
+$var wire 1 6 sel $end
+$var wire 1 ]$ out $end
+$upscope $end
+$upscope $end
+$scope begin genblk2[15] $end
+$var parameter 5 ^$ a $end
+$scope module muxxing $end
+$var wire 1 _$ in0 $end
+$var wire 1 `$ in1 $end
+$var wire 1 6 sel $end
+$var wire 1 a$ out $end
+$upscope $end
+$upscope $end
+$scope begin genblk2[16] $end
+$var parameter 6 b$ a $end
+$scope module muxxing $end
+$var wire 1 c$ in0 $end
+$var wire 1 d$ in1 $end
+$var wire 1 6 sel $end
+$var wire 1 e$ out $end
+$upscope $end
+$upscope $end
+$scope begin genblk2[17] $end
+$var parameter 6 f$ a $end
+$scope module muxxing $end
+$var wire 1 g$ in0 $end
+$var wire 1 h$ in1 $end
+$var wire 1 6 sel $end
+$var wire 1 i$ out $end
+$upscope $end
+$upscope $end
+$scope begin genblk2[18] $end
+$var parameter 6 j$ a $end
+$scope module muxxing $end
+$var wire 1 k$ in0 $end
+$var wire 1 l$ in1 $end
+$var wire 1 6 sel $end
+$var wire 1 m$ out $end
+$upscope $end
+$upscope $end
+$scope begin genblk2[19] $end
+$var parameter 6 n$ a $end
+$scope module muxxing $end
+$var wire 1 o$ in0 $end
+$var wire 1 p$ in1 $end
+$var wire 1 6 sel $end
+$var wire 1 q$ out $end
+$upscope $end
+$upscope $end
+$scope begin genblk2[20] $end
+$var parameter 6 r$ a $end
+$scope module muxxing $end
+$var wire 1 s$ in0 $end
+$var wire 1 t$ in1 $end
+$var wire 1 6 sel $end
+$var wire 1 u$ out $end
+$upscope $end
+$upscope $end
+$scope begin genblk2[21] $end
+$var parameter 6 v$ a $end
+$scope module muxxing $end
+$var wire 1 w$ in0 $end
+$var wire 1 x$ in1 $end
+$var wire 1 6 sel $end
+$var wire 1 y$ out $end
+$upscope $end
+$upscope $end
+$scope begin genblk2[22] $end
+$var parameter 6 z$ a $end
+$scope module muxxing $end
+$var wire 1 {$ in0 $end
+$var wire 1 |$ in1 $end
+$var wire 1 6 sel $end
+$var wire 1 }$ out $end
+$upscope $end
+$upscope $end
+$scope begin genblk2[23] $end
+$var parameter 6 ~$ a $end
+$scope module muxxing $end
+$var wire 1 !% in0 $end
+$var wire 1 "% in1 $end
+$var wire 1 6 sel $end
+$var wire 1 #% out $end
+$upscope $end
+$upscope $end
+$scope begin genblk2[24] $end
+$var parameter 6 $% a $end
+$scope module muxxing $end
+$var wire 1 %% in0 $end
+$var wire 1 &% in1 $end
+$var wire 1 6 sel $end
+$var wire 1 '% out $end
+$upscope $end
+$upscope $end
+$scope begin genblk2[25] $end
+$var parameter 6 (% a $end
+$scope module muxxing $end
+$var wire 1 )% in0 $end
+$var wire 1 *% in1 $end
+$var wire 1 6 sel $end
+$var wire 1 +% out $end
+$upscope $end
+$upscope $end
+$scope begin genblk2[26] $end
+$var parameter 6 ,% a $end
+$scope module muxxing $end
+$var wire 1 -% in0 $end
+$var wire 1 .% in1 $end
+$var wire 1 6 sel $end
+$var wire 1 /% out $end
+$upscope $end
+$upscope $end
+$scope begin genblk2[27] $end
+$var parameter 6 0% a $end
+$scope module muxxing $end
+$var wire 1 1% in0 $end
+$var wire 1 2% in1 $end
+$var wire 1 6 sel $end
+$var wire 1 3% out $end
+$upscope $end
+$upscope $end
+$scope begin genblk2[28] $end
+$var parameter 6 4% a $end
+$scope module muxxing $end
+$var wire 1 5% in0 $end
+$var wire 1 6% in1 $end
+$var wire 1 6 sel $end
+$var wire 1 7% out $end
+$upscope $end
+$upscope $end
+$scope begin genblk2[29] $end
+$var parameter 6 8% a $end
+$scope module muxxing $end
+$var wire 1 9% in0 $end
+$var wire 1 :% in1 $end
+$var wire 1 6 sel $end
+$var wire 1 ;% out $end
+$upscope $end
+$upscope $end
+$scope begin genblk2[30] $end
+$var parameter 6 <% a $end
+$scope module muxxing $end
+$var wire 1 =% in0 $end
+$var wire 1 >% in1 $end
+$var wire 1 6 sel $end
+$var wire 1 ?% out $end
+$upscope $end
+$upscope $end
+$scope begin genblk2[31] $end
+$var parameter 6 @% a $end
+$scope module muxxing $end
+$var wire 1 A% in0 $end
+$var wire 1 B% in1 $end
+$var wire 1 6 sel $end
+$var wire 1 C% out $end
+$upscope $end
+$upscope $end
+$scope begin genblk2[32] $end
+$var parameter 7 D% a $end
+$scope module muxxing $end
+$var wire 1 E% in0 $end
+$var wire 1 F% in1 $end
+$var wire 1 6 sel $end
+$var wire 1 G% out $end
+$upscope $end
+$upscope $end
+$scope begin genblk2[33] $end
+$var parameter 7 H% a $end
+$scope module muxxing $end
+$var wire 1 I% in0 $end
+$var wire 1 J% in1 $end
+$var wire 1 6 sel $end
+$var wire 1 K% out $end
+$upscope $end
+$upscope $end
+$scope begin genblk2[34] $end
+$var parameter 7 L% a $end
+$scope module muxxing $end
+$var wire 1 M% in0 $end
+$var wire 1 N% in1 $end
+$var wire 1 6 sel $end
+$var wire 1 O% out $end
+$upscope $end
+$upscope $end
+$scope begin genblk2[35] $end
+$var parameter 7 P% a $end
+$scope module muxxing $end
+$var wire 1 Q% in0 $end
+$var wire 1 R% in1 $end
+$var wire 1 6 sel $end
+$var wire 1 S% out $end
+$upscope $end
+$upscope $end
+$scope begin genblk2[36] $end
+$var parameter 7 T% a $end
+$scope module muxxing $end
+$var wire 1 U% in0 $end
+$var wire 1 V% in1 $end
+$var wire 1 6 sel $end
+$var wire 1 W% out $end
+$upscope $end
+$upscope $end
+$scope begin genblk2[37] $end
+$var parameter 7 X% a $end
+$scope module muxxing $end
+$var wire 1 Y% in0 $end
+$var wire 1 Z% in1 $end
+$var wire 1 6 sel $end
+$var wire 1 [% out $end
+$upscope $end
+$upscope $end
+$scope begin genblk2[38] $end
+$var parameter 7 \% a $end
+$scope module muxxing $end
+$var wire 1 ]% in0 $end
+$var wire 1 ^% in1 $end
+$var wire 1 6 sel $end
+$var wire 1 _% out $end
+$upscope $end
+$upscope $end
+$scope begin genblk2[39] $end
+$var parameter 7 `% a $end
+$scope module muxxing $end
+$var wire 1 a% in0 $end
+$var wire 1 b% in1 $end
+$var wire 1 6 sel $end
+$var wire 1 c% out $end
+$upscope $end
+$upscope $end
+$scope begin genblk2[40] $end
+$var parameter 7 d% a $end
+$scope module muxxing $end
+$var wire 1 e% in0 $end
+$var wire 1 f% in1 $end
+$var wire 1 6 sel $end
+$var wire 1 g% out $end
+$upscope $end
+$upscope $end
+$scope begin genblk2[41] $end
+$var parameter 7 h% a $end
+$scope module muxxing $end
+$var wire 1 i% in0 $end
+$var wire 1 j% in1 $end
+$var wire 1 6 sel $end
+$var wire 1 k% out $end
+$upscope $end
+$upscope $end
+$scope begin genblk2[42] $end
+$var parameter 7 l% a $end
+$scope module muxxing $end
+$var wire 1 m% in0 $end
+$var wire 1 n% in1 $end
+$var wire 1 6 sel $end
+$var wire 1 o% out $end
+$upscope $end
+$upscope $end
+$scope begin genblk2[43] $end
+$var parameter 7 p% a $end
+$scope module muxxing $end
+$var wire 1 q% in0 $end
+$var wire 1 r% in1 $end
+$var wire 1 6 sel $end
+$var wire 1 s% out $end
+$upscope $end
+$upscope $end
+$scope begin genblk2[44] $end
+$var parameter 7 t% a $end
+$scope module muxxing $end
+$var wire 1 u% in0 $end
+$var wire 1 v% in1 $end
+$var wire 1 6 sel $end
+$var wire 1 w% out $end
+$upscope $end
+$upscope $end
+$scope begin genblk2[45] $end
+$var parameter 7 x% a $end
+$scope module muxxing $end
+$var wire 1 y% in0 $end
+$var wire 1 z% in1 $end
+$var wire 1 6 sel $end
+$var wire 1 {% out $end
+$upscope $end
+$upscope $end
+$scope begin genblk2[46] $end
+$var parameter 7 |% a $end
+$scope module muxxing $end
+$var wire 1 }% in0 $end
+$var wire 1 ~% in1 $end
+$var wire 1 6 sel $end
+$var wire 1 !& out $end
+$upscope $end
+$upscope $end
+$scope begin genblk2[47] $end
+$var parameter 7 "& a $end
+$scope module muxxing $end
+$var wire 1 #& in0 $end
+$var wire 1 $& in1 $end
+$var wire 1 6 sel $end
+$var wire 1 %& out $end
+$upscope $end
+$upscope $end
+$scope begin genblk2[48] $end
+$var parameter 7 && a $end
+$scope module muxxing $end
+$var wire 1 '& in0 $end
+$var wire 1 (& in1 $end
+$var wire 1 6 sel $end
+$var wire 1 )& out $end
+$upscope $end
+$upscope $end
+$scope begin genblk2[49] $end
+$var parameter 7 *& a $end
+$scope module muxxing $end
+$var wire 1 +& in0 $end
+$var wire 1 ,& in1 $end
+$var wire 1 6 sel $end
+$var wire 1 -& out $end
+$upscope $end
+$upscope $end
+$scope begin genblk2[50] $end
+$var parameter 7 .& a $end
+$scope module muxxing $end
+$var wire 1 /& in0 $end
+$var wire 1 0& in1 $end
+$var wire 1 6 sel $end
+$var wire 1 1& out $end
+$upscope $end
+$upscope $end
+$scope begin genblk2[51] $end
+$var parameter 7 2& a $end
+$scope module muxxing $end
+$var wire 1 3& in0 $end
+$var wire 1 4& in1 $end
+$var wire 1 6 sel $end
+$var wire 1 5& out $end
+$upscope $end
+$upscope $end
+$scope begin genblk2[52] $end
+$var parameter 7 6& a $end
+$scope module muxxing $end
+$var wire 1 7& in0 $end
+$var wire 1 8& in1 $end
+$var wire 1 6 sel $end
+$var wire 1 9& out $end
+$upscope $end
+$upscope $end
+$scope begin genblk2[53] $end
+$var parameter 7 :& a $end
+$scope module muxxing $end
+$var wire 1 ;& in0 $end
+$var wire 1 <& in1 $end
+$var wire 1 6 sel $end
+$var wire 1 =& out $end
+$upscope $end
+$upscope $end
+$scope begin genblk2[54] $end
+$var parameter 7 >& a $end
+$scope module muxxing $end
+$var wire 1 ?& in0 $end
+$var wire 1 @& in1 $end
+$var wire 1 6 sel $end
+$var wire 1 A& out $end
+$upscope $end
+$upscope $end
+$scope begin genblk2[55] $end
+$var parameter 7 B& a $end
+$scope module muxxing $end
+$var wire 1 C& in0 $end
+$var wire 1 D& in1 $end
+$var wire 1 6 sel $end
+$var wire 1 E& out $end
+$upscope $end
+$upscope $end
+$scope begin genblk2[56] $end
+$var parameter 7 F& a $end
+$scope module muxxing $end
+$var wire 1 G& in0 $end
+$var wire 1 H& in1 $end
+$var wire 1 6 sel $end
+$var wire 1 I& out $end
+$upscope $end
+$upscope $end
+$scope begin genblk2[57] $end
+$var parameter 7 J& a $end
+$scope module muxxing $end
+$var wire 1 K& in0 $end
+$var wire 1 L& in1 $end
+$var wire 1 6 sel $end
+$var wire 1 M& out $end
+$upscope $end
+$upscope $end
+$scope begin genblk2[58] $end
+$var parameter 7 N& a $end
+$scope module muxxing $end
+$var wire 1 O& in0 $end
+$var wire 1 P& in1 $end
+$var wire 1 6 sel $end
+$var wire 1 Q& out $end
+$upscope $end
+$upscope $end
+$scope begin genblk2[59] $end
+$var parameter 7 R& a $end
+$scope module muxxing $end
+$var wire 1 S& in0 $end
+$var wire 1 T& in1 $end
+$var wire 1 6 sel $end
+$var wire 1 U& out $end
+$upscope $end
+$upscope $end
+$scope begin genblk2[60] $end
+$var parameter 7 V& a $end
+$scope module muxxing $end
+$var wire 1 W& in0 $end
+$var wire 1 X& in1 $end
+$var wire 1 6 sel $end
+$var wire 1 Y& out $end
+$upscope $end
+$upscope $end
+$scope begin genblk2[61] $end
+$var parameter 7 Z& a $end
+$scope module muxxing $end
+$var wire 1 [& in0 $end
+$var wire 1 \& in1 $end
+$var wire 1 6 sel $end
+$var wire 1 ]& out $end
+$upscope $end
+$upscope $end
+$scope begin genblk2[62] $end
+$var parameter 7 ^& a $end
+$scope module muxxing $end
+$var wire 1 _& in0 $end
+$var wire 1 `& in1 $end
+$var wire 1 6 sel $end
+$var wire 1 a& out $end
+$upscope $end
+$upscope $end
+$scope begin genblk2[63] $end
+$var parameter 7 b& a $end
+$scope module muxxing $end
+$var wire 1 c& in0 $end
+$var wire 1 d& in1 $end
+$var wire 1 6 sel $end
+$var wire 1 e& out $end
+$upscope $end
+$upscope $end
+$scope module ControlUnit_uut $end
+$var wire 7 f& opcode [6:0] $end
+$var reg 2 g& ALUOp [1:0] $end
+$var reg 1 : ALUSrc $end
+$var reg 1 9 Branch $end
+$var reg 1 8 MemRead $end
+$var reg 1 7 MemWrite $end
+$var reg 1 6 MemtoReg $end
+$var reg 1 4 RegWrite $end
+$upscope $end
+$scope module alu_control_module_uut $end
+$var wire 2 h& aluop [1:0] $end
+$var wire 3 i& func3 [2:0] $end
+$var wire 1 j& func7 $end
+$var reg 4 k& alu_code [3:0] $end
+$upscope $end
+$scope module alu_uut $end
+$var wire 4 l& alu_code [3:0] $end
+$var wire 1 + overflow $end
+$var wire 64 m& result [63:0] $end
+$var wire 64 n& source_2 [63:0] $end
+$var wire 1 # zero $end
+$var wire 64 o& source_1 [63:0] $end
+$var reg 1 p& overflow_reg $end
+$var reg 64 q& result_reg [63:0] $end
+$upscope $end
+$scope module data_mem_uut $end
+$var wire 64 r& add [63:0] $end
+$var wire 1 ! clk $end
+$var wire 1 8 mem_rd $end
+$var wire 1 7 mem_wr $end
+$var wire 64 s& in [63:0] $end
+$var reg 64 t& out [63:0] $end
+$var integer 32 u& i [31:0] $end
+$upscope $end
+$scope module immGenerator_uut $end
+$var wire 32 v& instr [31:0] $end
+$var reg 64 w& immOut [63:0] $end
+$upscope $end
+$scope module instruction_module_uut $end
+$var wire 64 x& address [63:0] $end
+$var reg 32 y& instruction [31:0] $end
+$upscope $end
+$scope module pc_address_generator_uut $end
+$var wire 1 9 branch $end
+$var wire 64 z& immd [63:0] $end
+$var wire 64 {& pc_add [63:0] $end
+$var reg 64 |& jump_add [63:0] $end
+$var reg 64 }& nxt_add [63:0] $end
+$var reg 64 ~& nxt_pc_address [63:0] $end
+$upscope $end
+$scope module registerfile_uut $end
+$var wire 64 !' Data1 [63:0] $end
+$var wire 5 "' Read1 [4:0] $end
+$var wire 5 #' Read2 [4:0] $end
+$var wire 1 4 RegWrite $end
+$var wire 64 $' WriteData [63:0] $end
+$var wire 5 %' WriteReg [4:0] $end
+$var wire 1 ! clk $end
+$var wire 64 &' Data2 [63:0] $end
+$var reg 64 '' tempData1 [63:0] $end
+$var reg 64 (' tempData2 [63:0] $end
+$var integer 32 )' i [31:0] $end
+$var integer 32 *' k [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b111111 b&
+b111110 ^&
+b111101 Z&
+b111100 V&
+b111011 R&
+b111010 N&
+b111001 J&
+b111000 F&
+b110111 B&
+b110110 >&
+b110101 :&
+b110100 6&
+b110011 2&
+b110010 .&
+b110001 *&
+b110000 &&
+b101111 "&
+b101110 |%
+b101101 x%
+b101100 t%
+b101011 p%
+b101010 l%
+b101001 h%
+b101000 d%
+b100111 `%
+b100110 \%
+b100101 X%
+b100100 T%
+b100011 P%
+b100010 L%
+b100001 H%
+b100000 D%
+b11111 @%
+b11110 <%
+b11101 8%
+b11100 4%
+b11011 0%
+b11010 ,%
+b11001 (%
+b11000 $%
+b10111 ~$
+b10110 z$
+b10101 v$
+b10100 r$
+b10011 n$
+b10010 j$
+b10001 f$
+b10000 b$
+b1111 ^$
+b1110 Z$
+b1101 V$
+b1100 R$
+b1011 N$
+b1010 J$
+b1001 F$
+b1000 B$
+b111 >$
+b110 :$
+b101 6$
+b100 2$
+b11 .$
+b10 *$
+b1 &$
+b0 "$
+b111111 |#
+b111110 x#
+b111101 t#
+b111100 p#
+b111011 l#
+b111010 h#
+b111001 d#
+b111000 `#
+b110111 \#
+b110110 X#
+b110101 T#
+b110100 P#
+b110011 L#
+b110010 H#
+b110001 D#
+b110000 @#
+b101111 <#
+b101110 8#
+b101101 4#
+b101100 0#
+b101011 ,#
+b101010 (#
+b101001 $#
+b101000 ~"
+b100111 z"
+b100110 v"
+b100101 r"
+b100100 n"
+b100011 j"
+b100010 f"
+b100001 b"
+b100000 ^"
+b11111 Z"
+b11110 V"
+b11101 R"
+b11100 N"
+b11011 J"
+b11010 F"
+b11001 B"
+b11000 >"
+b10111 :"
+b10110 6"
+b10101 2"
+b10100 ."
+b10011 *"
+b10010 &"
+b10001 ""
+b10000 |
+b1111 x
+b1110 t
+b1101 p
+b1100 l
+b1011 h
+b1010 d
+b1001 `
+b1000 \
+b111 X
+b110 T
+b101 P
+b100 L
+b11 H
+b10 D
+b1 @
+b0 <
+$end
+#0
+$dumpvars
+b100000 *'
+bx )'
+b0 ('
+b0 ''
+b0 &'
+b1 %'
+b0 $'
+b0 #'
+b0 "'
+b0 !'
+b100 ~&
+b100 }&
+b0 |&
+b0 {&
+b0 z&
+b11000010000011 y&
+b0 x&
+b0 w&
+b11000010000011 v&
+bx u&
+b0 t&
+b0 s&
+b0 r&
+b0 q&
+0p&
+b0 o&
+b0 n&
+b0 m&
+b10 l&
+b10 k&
+0j&
+b11 i&
+b0 h&
+b0 g&
+b11 f&
+0e&
+0d&
+0c&
+0a&
+0`&
+0_&
+0]&
+0\&
+0[&
+0Y&
+0X&
+0W&
+0U&
+0T&
+0S&
+0Q&
+0P&
+0O&
+0M&
+0L&
+0K&
+0I&
+0H&
+0G&
+0E&
+0D&
+0C&
+0A&
+0@&
+0?&
+0=&
+0<&
+0;&
+09&
+08&
+07&
+05&
+04&
+03&
+01&
+00&
+0/&
+0-&
+0,&
+0+&
+0)&
+0(&
+0'&
+0%&
+0$&
+0#&
+0!&
+0~%
+0}%
+0{%
+0z%
+0y%
+0w%
+0v%
+0u%
+0s%
+0r%
+0q%
+0o%
+0n%
+0m%
+0k%
+0j%
+0i%
+0g%
+0f%
+0e%
+0c%
+0b%
+0a%
+0_%
+0^%
+0]%
+0[%
+0Z%
+0Y%
+0W%
+0V%
+0U%
+0S%
+0R%
+0Q%
+0O%
+0N%
+0M%
+0K%
+0J%
+0I%
+0G%
+0F%
+0E%
+0C%
+0B%
+0A%
+0?%
+0>%
+0=%
+0;%
+0:%
+09%
+07%
+06%
+05%
+03%
+02%
+01%
+0/%
+0.%
+0-%
+0+%
+0*%
+0)%
+0'%
+0&%
+0%%
+0#%
+0"%
+0!%
+0}$
+0|$
+0{$
+0y$
+0x$
+0w$
+0u$
+0t$
+0s$
+0q$
+0p$
+0o$
+0m$
+0l$
+0k$
+0i$
+0h$
+0g$
+0e$
+0d$
+0c$
+0a$
+0`$
+0_$
+0]$
+0\$
+0[$
+0Y$
+0X$
+0W$
+0U$
+0T$
+0S$
+0Q$
+0P$
+0O$
+0M$
+0L$
+0K$
+0I$
+0H$
+0G$
+0E$
+0D$
+0C$
+0A$
+0@$
+0?$
+0=$
+0<$
+0;$
+09$
+08$
+07$
+05$
+04$
+03$
+01$
+00$
+0/$
+0-$
+0,$
+0+$
+0)$
+0($
+0'$
+0%$
+0$$
+0#$
+0!$
+0~#
+0}#
+0{#
+0z#
+0y#
+0w#
+0v#
+0u#
+0s#
+0r#
+0q#
+0o#
+0n#
+0m#
+0k#
+0j#
+0i#
+0g#
+0f#
+0e#
+0c#
+0b#
+0a#
+0_#
+0^#
+0]#
+0[#
+0Z#
+0Y#
+0W#
+0V#
+0U#
+0S#
+0R#
+0Q#
+0O#
+0N#
+0M#
+0K#
+0J#
+0I#
+0G#
+0F#
+0E#
+0C#
+0B#
+0A#
+0?#
+0>#
+0=#
+0;#
+0:#
+09#
+07#
+06#
+05#
+03#
+02#
+01#
+0/#
+0.#
+0-#
+0+#
+0*#
+0)#
+0'#
+0&#
+0%#
+0##
+0"#
+0!#
+0}"
+0|"
+0{"
+0y"
+0x"
+0w"
+0u"
+0t"
+0s"
+0q"
+0p"
+0o"
+0m"
+0l"
+0k"
+0i"
+0h"
+0g"
+0e"
+0d"
+0c"
+0a"
+0`"
+0_"
+0]"
+0\"
+0["
+0Y"
+0X"
+0W"
+0U"
+0T"
+0S"
+0Q"
+0P"
+0O"
+0M"
+0L"
+0K"
+0I"
+0H"
+0G"
+0E"
+0D"
+0C"
+0A"
+0@"
+0?"
+0="
+0<"
+0;"
+09"
+08"
+07"
+05"
+04"
+03"
+01"
+00"
+0/"
+0-"
+0,"
+0+"
+0)"
+0("
+0'"
+0%"
+0$"
+0#"
+0!"
+0~
+0}
+0{
+0z
+0y
+0w
+0v
+0u
+0s
+0r
+0q
+0o
+0n
+0m
+0k
+0j
+0i
+0g
+0f
+0e
+0c
+0b
+0a
+0_
+0^
+0]
+0[
+0Z
+0Y
+0W
+0V
+0U
+0S
+0R
+0Q
+0O
+0N
+0M
+0K
+0J
+0I
+0G
+0F
+0E
+0C
+0B
+0A
+0?
+0>
+0=
+b0 ;
+1:
+09
+18
+07
+16
+b0 5
+14
+b10 3
+b0 2
+b0 1
+b11 0
+b0 /
+b11000010000011 .
+b100 -
+b11 ,
+0+
+b1 *
+b0 )
+b0 (
+b0 '
+b0 &
+b0 %
+b0 $
+1#
+0"
+0!
+$end
+#5
+b10 $
+b10 $'
+1)$
+1($
+b10 5
+b10 t&
+1/$
+0#
+b1000 2
+b1000 m&
+b1000 r&
+b1000 q&
+b1000 %
+b1000 n&
+1K
+1J
+b10 *
+b10 %'
+b1000 &
+b1000 #'
+b1000 /
+b1000 w&
+b1000 z&
+b1000 -
+b1000 ~&
+b100000000011000100000011 .
+b100000000011000100000011 v&
+b100000000011000100000011 y&
+b10100 |&
+b1000 }&
+b100 ;
+b100 x&
+b100 {&
+b100000 )'
+b101001 u&
+1!
+#10
+0!
+#15
+b11 $
+b11 $'
+1%$
+1$$
+b11 5
+b11 t&
+13$
+0/$
+b10000 2
+b10000 m&
+b10000 r&
+b10000 q&
+1O
+b10000 %
+b10000 n&
+0K
+1N
+0J
+b11 *
+b11 %'
+b10000 &
+b10000 #'
+b10000 /
+b10000 w&
+b10000 z&
+b1100 -
+b1100 ~&
+b1000000000011000110000011 .
+b1000000000011000110000011 v&
+b1000000000011000110000011 y&
+b101000 |&
+b1100 }&
+b1000 ;
+b1000 x&
+b1000 {&
+b101001 u&
+b100000 )'
+1!
+#20
+0!
+#25
+1'$
+03$
+1C
+0#
+b10 2
+b10 m&
+b10 r&
+b10 q&
+1A
+0%$
+1)$
+b10 $
+b10 $'
+05$
+b10 %
+b10 n&
+0O
+b10 (
+b10 s&
+b10 &'
+b10 ('
+b10 1
+b10 g&
+b10 h&
+08
+06
+0:
+0N
+b100 *
+b100 %'
+b10 &
+b10 #'
+b1 '
+b1 "'
+b0 0
+b0 i&
+b110011 ,
+b110011 f&
+b0 /
+b0 w&
+b0 z&
+b10000 -
+b10000 ~&
+b1000001000001000110011 .
+b1000001000001000110011 v&
+b1000001000001000110011 y&
+b1100 |&
+b10000 }&
+b1100 ;
+b1100 x&
+b1100 {&
+b100000 )'
+b101001 u&
+1!
+#30
+0!
+#35
+0-$
+1)$
+b11 $
+b11 $'
+1%$
+b0 %
+b0 n&
+0C
+0+$
+1'$
+1#$
+0A
+b11 2
+b11 m&
+b11 r&
+b11 q&
+b0 (
+b0 s&
+b0 &'
+b0 ('
+b11 )
+b11 o&
+b11 !'
+b11 ''
+b101 *
+b101 %'
+b1 &
+b1 #'
+b11 '
+b11 "'
+b10100 -
+b10100 ~&
+b100011000001010110011 .
+b100011000001010110011 v&
+b100011000001010110011 y&
+b10000 |&
+b10100 }&
+b10000 ;
+b10000 x&
+b10000 {&
+b101001 u&
+b100000 )'
+1!
+#40
+0!
+#45
+0)$
+b0 $
+b0 $'
+0%$
+1"
+0'$
+0#$
+1C
+b11 %
+b11 n&
+1?
+1#
+b0 2
+b0 m&
+b0 r&
+b0 q&
+1A
+1=
+b110 3
+b110 k&
+b110 l&
+b11 (
+b11 s&
+b11 &'
+b11 ('
+b1 1
+b1 g&
+b1 h&
+19
+04
+b0 *
+b0 %'
+b11 &
+b11 #'
+b101 '
+b101 "'
+b1100011 ,
+b1100011 f&
+b10100 -
+b10100 ~&
+b1100101000000001100011 .
+b1100101000000001100011 v&
+b1100101000000001100011 y&
+b10100 |&
+b11000 }&
+b10100 ;
+b10100 x&
+b10100 {&
+b100000 )'
+b101001 u&
+1!
+#50
+0!
+#55
+b101001 u&
+b100000 )'
+1!
+#60
+0!
+#65
+b100000 )'
+b101001 u&
+1!
+#70
+0!
+#75
+b101001 u&
+b100000 )'
+1!
+#80
+0!
+#85
+b100000 )'
+b101001 u&
+1!
+#90
+0!
+#95
+b101001 u&
+b100000 )'
+1!
+#100
+0!

@@ -1,0 +1,4 @@
+ld x4, 0(x0)        
+ld x5, 8(x0)
+add x6, x4, x5
+sd x6, 32(x0)

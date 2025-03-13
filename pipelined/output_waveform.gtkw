@@ -1,0 +1,28 @@
+[*]
+[*] GTKWave Analyzer v3.3.116 (w)1999-2023 BSI
+[*] Thu Mar 13 16:51:05 2025
+[*]
+[dumpfile] "/home/priyanshi-jain/Desktop/sem4/ipa-s25-project-team-13/pipelined/output.vcd"
+[dumpfile_mtime] "Thu Mar 13 16:47:27 2025"
+[dumpfile_size] 19789
+[savefile] "/home/priyanshi-jain/Desktop/sem4/ipa-s25-project-team-13/pipelined/output_waveform.gtkw"
+[timestart] 0
+[size] 960 1121
+[pos] 909 -51
+*-5.023561 3 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] main_wrap_tb.
+[treeopen] main_wrap_tb.uut.
+[sst_width] 40
+[signals_width] 150
+[sst_expanded] 0
+[sst_vpaned_height] 338
+@24
+main_wrap_tb.clk
+main_wrap_tb.uut.pc_mux.out[63:0]
+main_wrap_tb.uut.registerfile_uut.tempData1[63:0]
+main_wrap_tb.uut.registerfile_uut.tempData2[63:0]
+main_wrap_tb.uut.registerfile_uut.WriteData[63:0]
+main_wrap_tb.uut.alu_uut.result[63:0]
+main_wrap_tb.uut.HazardDetectionUnit_uut.ControlMux
+[pattern_trace] 1
+[pattern_trace] 0
