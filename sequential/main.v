@@ -1,12 +1,12 @@
 `include "alu.v"
 `include "control_unit.v"
-`include "alu_control.v"
-`include "data_mem.v"
+`include "alu-control.v"
+`include "data-mem.v"
 `include "instruction.v"
 `include "pc.v"
 `include "register.v"
 `include "immgen.v"
-`include "mux_2x1.v"
+`include "mux-2x1.v"
 
 module main_wrap(input clk);
 
